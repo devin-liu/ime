@@ -9,10 +9,6 @@ let app = require('lotion')({
   }
 })
 
-
-
-
-
 app.use((state, tx) => {
   console.log(state)
   if(tx.action === 'vote'){
@@ -27,4 +23,4 @@ app.use((state, tx) => {
   state.count++
 })
 
-app.listen(8000)
+app.listen(3000)

@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "lotion": "^0.1.17"
+    "lotion": "^0.1.17",
+    "vue": "^2.5.16"
   }
 }
